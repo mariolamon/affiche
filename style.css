@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	height: auto;
+	width: auto;
+}
+#affiche {
+	background-image: url(image.jpeg);
+	width: 729px;
+	height: 1072px;
+	margin: auto;
+	box-shadow: 5px 5px 5px 3px #656565;
+}
+
+
+/*header*/
+header {
+	text-align: center;
+	position: relative;
+	bottom: -800px;
+}
+#acteur {
+	color: #AFAFAF;
+	font-family: crank;
+	margin: 0;
+}
+#crank {
+	color: #FFFFFF;
+	font-family: crank;
+	font-size: 70px;
+	margin: 0;
+}
+#titre {
+	color: red;
+	font-family: crank;
+	margin: 0;
+}
+
+
+/*credis*/
+#credis {
+	text-align: center;
+	font-family: credis;
+	font-size: 20px;
+	color: #AFAFAF;
+	position: relative;
+	top: 75%;
+	max-width: 100%;
+}
+#credis span {
+	font-size: 9px;
+}
+
+
+/*typo*/
+@font-face {
+	font-family: 'crank';
+	src: url(titre.ttf);
+}
+@font-face {
+	font-family: 'credis';
+	src: url(credis.ttf);
+}
